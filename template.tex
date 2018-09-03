@@ -15,6 +15,10 @@
 \usepackage{amsthm}
 \usepackage{verbatim} 
 
+\newenvironment{solution}
+{\renewcommand\qedsymbol{$\blacksquare$}\begin{proof}[Solution]}
+{\end{proof}}
+
 
 % Defining commands:
 \newcommand{\R}{\mathbb{R}}
