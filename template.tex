@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 %\usepackage[utf8]{inputenc}
 \usepackage{geometry}
     \geometry{
@@ -14,26 +14,37 @@
 \usepackage{color}
 \usepackage{amsthm}
 \usepackage{verbatim} 
+\usepackage{hyperref}
+\usepackage{enumitem}
 
-% From https://tex.stackexchange.com/questions/211136/environment-solution-environment-for-exercises-different-than-proof-environme
+
 \newenvironment{solution}
-{\renewcommand\qedsymbol{$\blacksquare$}\begin{proof}[Solution]}
-{\end{proof}}
-
+  {\renewcommand\qedsymbol{$\blacksquare$}\begin{proof}[Solution]}
+  {\end{proof}}
 
 % Defining commands:
 \newcommand{\R}{\mathbb{R}}
+\newcommand{\exhat}{\hat{e}_x}
+\newcommand{\eyhat}{\hat{e}_y}
+\newcommand{\ezhat}{\hat{e}_z}
+% \newcommand{\par}{$\partial$}
 
 
-%Start
-\title{Homework }
+\title{Problem Set}
 \author{Skanda Kaashyap}
-\date{Date}
+\date{}
 
 \begin{document}
 
 \maketitle
 
-\section*{Assigned Problems}
+\section*{Problem 1}
+	\begin{proof}
+		Proof.
+	\end{proof}
+
+	\begin{solution}
+	Solution
+	\end{solution}
 
 \end{document}
