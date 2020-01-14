@@ -1,5 +1,4 @@
-\documentclass[12pt]{article}
-%\usepackage[utf8]{inputenc}
+\documentclass[10pt]{extreport}
 \usepackage{geometry}
     \geometry{
     a4paper,
@@ -16,36 +15,53 @@
 \usepackage{verbatim} 
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage{mathpazo} % Palatino
+
+% Graphics for images
+\usepackage{graphicx}
+% Define graphics path
+\graphicspath{ {./images/} }
 
 
 \newenvironment{solution}
   {\renewcommand\qedsymbol{$\blacksquare$}\begin{proof}[Solution]}
   {\end{proof}}
 
+
 % Defining commands:
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\exhat}{\hat{e}_x}
 \newcommand{\eyhat}{\hat{e}_y}
 \newcommand{\ezhat}{\hat{e}_z}
-% \newcommand{\par}{$\partial$}
+\newcommand{\harmexp}{e^{-\frac{m\omega x^2}{2 \hbar}}}
+\newcommand{\ket}[1]{| #1 \rangle}
+\newcommand{\bra}[1]{\langle #1 |}
+\newcommand{\braket}[2]{\langle #1 | #2 \rangle}
+\newcommand{\vecdot}[1]{\dot{\vec #1}}
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\leftright}[1]{\left( #1 \right)} % Left right parentheses
+\newcommand{\aab}[1]{\left\langle #1 \right\rangle} % Stands for auto angled brackets
+\newcommand{\ptd}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\curl}[1]{\vec \nabla \times #1}
+\newcommand{\dive}[1]{\vec \nabla \cdot #1}
 
-
-\title{Problem Set}
+\title{Math/Physics/Computer Science Homework/Problem Set Template}
 \author{Skanda Kaashyap}
-\date{}
 
 \begin{document}
 
+
 \maketitle
 
-\section*{Problem 1}
+\section*{Title of Section 1}
+	Section 1 body...
 	\begin{proof}
-		Proof.
+		Write your proofs here.
 	\end{proof}
-
+	
 	\begin{solution}
-	Solution
+		Write your solutions here.
 	\end{solution}
 
 \end{document}
-
