@@ -1,2 +1,2 @@
-# Math Homework Template
-Barebones template for my math homework
+# Math/CS/Physics Homework
+Barebones template for my math/CS/physics homework
